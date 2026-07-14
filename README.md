@@ -11,7 +11,7 @@ MoE at multi-thousand-GPU scale: expert parallelism, communication/computation o
 |---|---|---|
 | **[PP-Schedule-Visualization](https://github.com/Victarry/PP-Schedule-Visualization)** | Interactive visualizer for pipeline-parallel schedules | `viz` |
 | **[PyTorch-Memory-Profiler](https://github.com/Victarry/PyTorch-Memory-Profiler)** | Tensor-level GPU memory allocation profiler | `profiling` |
-| **[Megatron-MoE-Echo](https://github.com/Victarry/Megatron-MoE-Echo)** | MoE training experiments on Megatron-Core | `moe` |
+| **[Megatron-LM](https://github.com/NVIDIA/Megatron-LM)** | Large-scale transformer training and Mixture-of-Experts | `moe` |
 | **[Image-Generation-models](https://github.com/Victarry/Image-Generation-models)** | From-scratch studies of generative image models | `research` |
 
 ## Lab log
