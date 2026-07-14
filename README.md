@@ -1,16 +1,25 @@
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Victarry&show_icons=true&count_private=true&theme=merko)
+# Victarry
 
-<!--
-**Victarry/Victarry** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Dennis (Zhenhuan) Liu — Megatron-Core, NVIDIA.<br>
+MoE at multi-thousand-GPU scale: expert parallelism, communication/computation overlap, pipeline scheduling.
 
-Here are some ideas to get you started:
+[github.com/Victarry](https://github.com/Victarry)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Projects
+
+| Repo | Focus | |
+|---|---|---|
+| **[PP-Schedule-Visualization](https://github.com/Victarry/PP-Schedule-Visualization)** | Interactive visualizer for pipeline-parallel schedules | `viz` |
+| **[PyTorch-Memory-Profiler](https://github.com/Victarry/PyTorch-Memory-Profiler)** | Tensor-level GPU memory allocation profiler | `profiling` |
+| **[Megatron-MoE-Echo](https://github.com/Victarry/Megatron-MoE-Echo)** | MoE training experiments on Megatron-Core | `moe` |
+| **[Image-Generation-models](https://github.com/Victarry/Image-Generation-models)** | From-scratch studies of generative image models | `research` |
+
+## Lab log
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://victarry-readme.vercel.app/api/lab-log?theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://victarry-readme.vercel.app/api/lab-log?theme=light">
+  <img alt="Victarry's recent merged pull requests, reviews, releases, and commits" src="https://victarry-readme.vercel.app/api/lab-log?theme=light" width="880">
+</picture>
+
+<sub>Recent merged PRs, reviews, releases, and commits — sourced from GitHub and cached at the edge.</sub>
