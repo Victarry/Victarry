@@ -2,6 +2,8 @@
 
 `GET /api/lab-log?theme=light|dark` returns an SVG generated from Victarry's public GitHub activity.
 
+The optional fixed `v=20260714` parameter exists only to invalidate GitHub Camo after a visual/data-selection change. Other values and unknown query parameters return `400`, preventing arbitrary cache-busting from exhausting GitHub's public API limit.
+
 ## Data sources
 
 - GitHub Search API: recently merged pull requests authored by `Victarry`.

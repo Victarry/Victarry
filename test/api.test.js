@@ -20,6 +20,12 @@ test("rejects cache-busting query parameters", async () => {
   assert.equal(response.code, 400);
 });
 
+test("rejects arbitrary asset versions", async () => {
+  const response = responseMock();
+  await handler({ method: "GET", query: { theme: "dark", v: "random" }, headers: {} }, response);
+  assert.equal(response.code, 400);
+});
+
 test("renders the dated snapshot when GitHub is unavailable", async () => {
   const originalFetch = globalThis.fetch;
   const originalError = console.error;

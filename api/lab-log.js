@@ -11,8 +11,13 @@ export default async function handler(request, response) {
     return response.status(405).send("Method Not Allowed");
   }
 
-  const unknownQuery = Object.keys(request.query || {}).filter((key) => key !== "theme");
+  const unknownQuery = Object.keys(request.query || {}).filter(
+    (key) => key !== "theme" && key !== "v",
+  );
   if (unknownQuery.length) return response.status(400).send("Unsupported query parameter");
+  if (request.query?.v && request.query.v !== "20260714") {
+    return response.status(400).send("Unsupported asset version");
+  }
 
   const theme = request.query?.theme === "dark" ? "dark" : "light";
   let activity = [];
